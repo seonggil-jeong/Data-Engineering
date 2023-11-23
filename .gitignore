@@ -77,12 +77,11 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
-# Custom Ignore
-./venv/
-./data/
-
 
 # Project exclude paths
 /scala-module/project/target/
 /scala-module/target/
 /scala-module/target/scala-2.13/classes/
+
+.idea/**
+./data/**
